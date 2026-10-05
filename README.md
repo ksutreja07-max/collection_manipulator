@@ -10,7 +10,7 @@
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 
 ![Project Type](https://img.shields.io/badge/Project-Student%20Management-00C2FF?style=for-the-badge)
 
@@ -28,12 +28,12 @@ The project allows the user to manage student information through a menu-driven 
 
 It provides options to:
 
-- ➕ Add student information
-- 📋 Display all student records
-- ✏️ Update student information
-- 🗑️ Delete student records
-- 📚 Display subjects offered
-- 🚪 Exit the program
+* ➕ Add student information
+* 📋 Display all student records
+* ✏️ Update student information
+* 🗑️ Delete student records
+* 📚 Display subjects offered
+* 🚪 Exit the program
 
 The project uses basic Python concepts such as **lists, dictionaries, sets, loops, conditional statements, input/output, and string operations**.
 
@@ -45,20 +45,21 @@ The project uses basic Python concepts such as **lists, dictionaries, sets, loop
 
 The main objectives of this project are:
 
-- 🧑‍🎓 Store student information
-- 📋 Display student records
-- ✏️ Update existing student information
-- 🗑️ Remove student records
-- 📚 Store and display subjects
-- 🔄 Practise menu-driven programming
-- 🧠 Improve Python logical thinking
-- 💻 Practise working with lists, dictionaries, and sets
+* 🧑‍🎓 Store student information
+* 📋 Display student records
+* ✏️ Update existing student information
+* 🗑️ Remove student records
+* 📚 Store and display subjects
+* 🔄 Practise menu-driven programming
+* 🧠 Improve Python logical thinking
+* 💻 Practise working with lists, dictionaries, and sets
 
 ---
 
 # ✨ Key Features
 
 <table>
+
 <tr>
 
 <td width="50%">
@@ -67,12 +68,12 @@ The main objectives of this project are:
 
 Enter student information including:
 
-- Student ID
-- Student Name
-- Student Age
-- Student Grade
-- Date of Birth
-- Subjects
+* Student ID
+* Student Name
+* Student Age
+* Student Grade
+* Date of Birth
+* Subjects
 
 </td>
 
@@ -82,11 +83,11 @@ Enter student information including:
 
 Display all available student records with their:
 
-- ID
-- Name
-- Age
-- Grade
-- Subjects
+* ID
+* Name
+* Age
+* Grade
+* Subjects
 
 </td>
 
@@ -100,8 +101,8 @@ Display all available student records with their:
 
 Search for a student using their ID and update:
 
-- Age
-- Subjects
+* Age
+* Subjects
 
 </td>
 
@@ -149,13 +150,13 @@ Exit the Student Data Organizer safely using the menu option.
 
 ### Core Technology
 
-| Technology | Purpose |
-|------------|---------|
-| 🐍 Python | Programming Language |
-| 💻 VS Code | Code Editor |
-| 📦 List | Store multiple student records |
-| 📖 Dictionary | Store individual student information |
-| 🔹 Set | Store subjects without duplicate values |
+| Technology    | Purpose                                 |
+| ------------- | --------------------------------------- |
+| 🐍 Python     | Programming Language                    |
+| 💻 VS Code    | Code Editor                             |
+| 📦 List       | Store multiple student records          |
+| 📖 Dictionary | Store individual student information    |
+| 🔹 Set        | Store subjects without duplicate values |
 
 ---
 
@@ -163,6 +164,7 @@ Exit the Student Data Organizer safely using the menu option.
 
 ```text
 pr-3-collection_manipulation/
+
 │
 ├── student_data_organizer.py
 │
@@ -183,16 +185,25 @@ A --> B[Display Menu]
 B --> C{Choose Option}
 
 C -->|1| D[Add Student]
+
 C -->|2| E[Display Students]
+
 C -->|3| F[Update Student]
+
 C -->|4| G[Delete Student]
+
 C -->|5| H[Display Subjects]
+
 C -->|6| I[Exit]
 
 D --> B
+
 E --> B
+
 F --> B
+
 G --> B
+
 H --> B
 
 I --> J[End Program]
@@ -281,8 +292,10 @@ for record in student_data:
 ```python
 if choice == 1:
     ...
+
 elif choice == 2:
     ...
+
 else:
     ...
 ```
@@ -311,11 +324,17 @@ When the program starts, the user gets the following menu:
 
 ```text
 Select an option:
+
 1. Add Student
+
 2. Display all Students
+
 3. Update Student Information
+
 4. Delete Student
+
 5. Display Subjects Offered
+
 6. Exit
 ```
 
@@ -346,7 +365,7 @@ Open the project folder in **VS Code** or another Python-supported editor.
 Run the Python file:
 
 ```bash
-python student_data.py
+python student_data_organizer.py
 ```
 
 ---
@@ -365,11 +384,17 @@ Enter a number from **1 to 6** according to the operation you want to perform.
 Welcome to Student data organizer!
 
 Select an option:
+
 1. Add Student
+
 2. Display all Students
+
 3. Update Student Information
+
 4. Delete Student
+
 5. Display Subjects Offered
+
 6. Exit
 
 Choose an choice: 1
@@ -377,10 +402,15 @@ Choose an choice: 1
 Enter Student Information
 
 student ID: 101
+
 student Name: Rahul
+
 student Age: 18
+
 student Grade: A
+
 date of Birth: 12-05-2008
+
 enter subjects separated by comma: Python, Maths, English
 
 Record of Rahul added successfully!
@@ -392,18 +422,18 @@ Record of Rahul added successfully!
 
 Through this project, I practised:
 
-- 🐍 Python Programming
-- 📋 Lists
-- 📖 Dictionaries
-- 🔹 Sets
-- 🔄 While Loops
-- 🔁 For Loops
-- 🔀 Conditional Statements
-- 📝 User Input
-- 🖨️ Output Formatting
-- 🔤 String Operations
-- 🧠 Logical Thinking
-- 📊 Data Organization
+* 🐍 Python Programming
+* 📋 Lists
+* 📖 Dictionaries
+* 🔹 Sets
+* 🔄 While Loops
+* 🔁 For Loops
+* 🔀 Conditional Statements
+* 📝 User Input
+* 🖨️ Output Formatting
+* 🔤 String Operations
+* 🧠 Logical Thinking
+* 📊 Data Organization
 
 ---
 
@@ -435,14 +465,14 @@ Built a simple real-world style student record management program.
 
 The project can be extended in the future with features such as:
 
-- 🔐 Student login system
-- 💾 Save student data permanently
-- 📂 File-based data storage
-- 🔎 Search student by name
-- 📊 Student marks management
-- 📈 Student performance reports
-- 🖥️ Graphical User Interface
-- 🗄️ Database integration
+* 🔐 Student login system
+* 💾 Save student data permanently
+* 📂 File-based data storage
+* 🔎 Search student by name
+* 📊 Student marks management
+* 📈 Student performance reports
+* 🖥️ Graphical User Interface
+* 🗄️ Database integration
 
 ---
 
@@ -480,16 +510,35 @@ The main focus is on creating a simple and understandable **Student Data Organiz
 
 ```text
 ✓ Menu-driven program
+
 ✓ Student record management
+
 ✓ Add student records
+
 ✓ Display student records
+
 ✓ Update student information
+
 ✓ Delete student records
+
 ✓ Subject management
+
 ✓ List and Dictionary usage
+
 ✓ Set usage
+
 ✓ Loops and Conditional Statements
 ```
+
+---
+
+# 🎥 Project Explanation Video
+
+I have created a video explanation of this project where I explain the **Student Data Organizer** program, its working, menu options, and the Python concepts used.
+
+📺 **Watch the Project Explanation Video:**
+
+👉 [Click Here to Watch the Explanation Video](https://drive.google.com/file/d/1xoZmuxEy7Pq8L03V05KXYtNDWd6PHYA0/view?usp=sharing)
 
 ---
 
